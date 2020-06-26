@@ -4,6 +4,24 @@
 #include <stdio.h>
 
 
+void print_str(char* a) {
+
+
+  int i = 0;
+
+  while (1){
+
+    if (a[i] == '\0'){
+      break;
+    }
+
+    printf("%c", a[i]);
+    i++;
+  }
+
+  printf("\n");
+}
+
 
 int main(void) {
 
